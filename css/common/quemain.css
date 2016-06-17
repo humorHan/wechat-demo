@@ -1,0 +1,93 @@
+﻿
+/*魔方格试题*/
+.artpreview fieldset { padding-top: 10px; font-size: 14px; clear: both; overflow: hidden; zoom: 1; line-height: 24px; font-family: "宋体",sans-serif; position: relative; }
+.artpreview fieldset legend { padding: 5px 0; display: block; margin: 5px; background: #f1f1f1; color: #000; overflow: hidden; zoom: 1; }
+.queserror { border: 1px dotted #f00; padding: 2px; }
+fieldset.quesborder { font-size: 13px; display: block; border: 1px solid #ccc; padding: 0; font-family: 宋体,sans-serif; line-height: 25px; letter-spacing: 1px; word-break: break-all; }
+fieldset.queserror { border: 1px solid #f00; font-size: 12px; padding: 2px; }
+fieldset.quesborder td, fieldset.queserror td { line-height: 16px; }
+fieldset.quesborder em, fieldset.queserror em { font-style: normal; position: absolute; top: 10px; left: 20px; font-weight: bold; }
+fieldset.thiserror1 { border: 1px solid #f00; }
+fieldset.thiserror1 legend { border: 4px solid #f00; }
+fieldset.thiserror2 { border: 1px solid #ADCD3C; }
+fieldset.thiserror2 legend { border: 4px solid #ADCD3C; }
+fieldset.thisques { border: 1px solid blue; }
+fieldset.thison { border: 1px solid #A9C9E2; }
+fieldset.thison div.border { border: 1px solid #ADCD3C; background-color: #F2FDDB; }
+fieldset, img { border: 0 none; }
+table.thison { border: 1px solid #000; }
+table.thiserr { border: 1px solid #000; }
+fieldset.thisvip1 { border: 1px solid #00F; }
+fieldset.thisvip1 legend { border: 4px solid #000; }
+fieldset.status17 { border: 1px solid #ff00ff; }
+fieldset.status17 legend { border: 4px solid #ff00ff; }
+.selectoption { vertical-align: middle; font-size: 14px; padding: 2px; }
+/*.selectoption:hover { color: #EA8511; }*/
+.selectoption label { padding: 4px; }
+fieldset.quesbordere { border: 2px dotted #f00; }
+.answer { border: 1px dotted #ffffff; }
+ol.answer li, ul.answer li { padding: 1px; font-size: 14px; }
+ol.answer li:hover { background: #f2f2f2; }
+.collapseContainerPanel { border: 0; }
+.collapsePanelHeader { height: 30px; font-weight: bold; padding: 6px 0 0 0; }
+.collapseHeaderContent { float: left; padding-left: 5px; }
+.collapseContent { margin: 0; padding: 0; border: 1px solid #ccc; border-top: 0; }
+span.fieldtip { height: 24px; line-height: 24px; font-size: 12px; text-align: left; display: block; overflow: hidden; opacity: 1; padding: 0; padding: 5px 10px; margin-top: -1px; border: 1px solid #ccc; border-top: none 0px; background: #f6f6f6; }
+span.fieldtip a { height: 20px; line-height: 20px; display: inline-block; margin-left: 15px; margin-right: 15px; cursor: pointer; color: #000; }
+.pt0 { padding: 2px 0 5px 0; font-size: 14px; font-family: "黑体",sans-serif; font-weight: 700; }
+.pt1 { overflow: hidden; zoom: 1; clear: both; line-height: 25px; font-size: 14px; padding: 20px 20px 5px 20px; }
+.pt1 img { position: relative; }
+.pt2 { padding: 10px 20px; }
+.que_main .pt3, .que_main .pt4,.que_main .pt5,.que_main .pt6,.que_main .pt7 { padding: 10px 20px 10px 80px; clear: both; overflow: hidden; zoom: 1; position: relative; }
+.pt8 a:link, .pt8 a:visited { margin-right: 10px; padding: 2px 5px; }
+.pt8 a:hover { background: #fc0; }
+.pt9 { padding: 20px; text-align: right; border: 0 none; }
+
+.ptline { height: 1px; border-top: 1px solid #ccc; margin: 10px 0; }
+
+table.edittable { border-collapse: collapse; text-align: center; margin: 2px; }
+table.edittable th, table.edittable td { line-height: 30px; padding: 5px; white-space: normal; word-break: break-all; border: 1px solid #000; vertical-align: middle; }
+.selectoption label.s.sh, div.s.sh { margin: 1px; border: none; background: none; }
+td.m label { border: 1px solid #f00; padding: 4px; padding-right: 40px; /*background: url(images/m.png) bottom right no-repeat;*/ display: inline-block; }
+td.r label { padding-right: 40px; /*background: url(images/r.png) bottom right no-repeat;*/ display: inline-block; }
+
+.sanwser {
+    padding: 4px 10px;
+    margin: 0px;
+    border: 1px solid #ADCD3C;
+    background-color: #F2FDDB;
+    color: #000;
+    display: none;
+}
+/*公式*/
+.MathJye { border: 0 none; direction: ltr; line-height: normal; display: inline-block; float: none; font-family: 'Times New Roman','宋体'; font-size: 15px; font-style: normal; font-weight: normal; letter-spacing: 1px; line-height: normal; margin: 0; padding: 0; text-align: left; text-indent: 0; text-transform: none; white-space: nowrap; word-spacing: normal; word-wrap: normal; -webkit-text-size-adjust: none; }
+.MathJye div, .MathJye span { border: 0 none; margin: 0; padding: 0; line-height: normal; text-align: left; height: auto; _height: auto; white-space: normal; }
+.MathJye table { border-collapse: collapse; margin: 0; padding: 0; text-align: center; vertical-align: middle; line-height: normal; font-size: inherit; *font-size: 100%; _font-size: 100%; font-style: normal; font-weight: normal; border: 0; float: none; display: inline-block; *display: inline; zoom: 0; }
+.MathJye table td { padding: 0; font-size: inherit; line-height: normal; white-space: nowrap; border: 0 none; width: auto; _height: auto; }
+.MathJye_mi { font-style: italic; }
+
+/*div.quizPutTag { display: inline; padding: 3px 10px 1px 10px; margin: 0 3px; font-size: 14px; min-width: 30px; min-height: 16px; line-height: 18px; height: auto; border-bottom: 1px solid #0033FF; text-decoration: none; zoom: 1; background: #fff; color: #fff; word-break: break-all; }*/
+/*div.quizPutTag:hover { color: #f60; }*/
+div.quizPutTag { display: inline; padding: 3px 10px 1px 10px; margin: 0 3px; font-size: 14px; min-width: 30px; min-height: 16px; line-height: 18px; height: auto; border-bottom: 1px solid #0033FF; text-decoration: none; zoom: 1; background: #fff; color: #fff; word-break: break-all;position:relative }
+/*div.quizPutTag:after{content:' ';padding: 4px 12px 2px 12px; margin: 0 3px; font-size: 14px; min-width: 30px; min-height: 16px; line-height: 18px;border-bottom: 1px solid #000; text-decoration: none; zoom: 1; background: #fff; color: #fff; word-break: break-all;background:#fff;position:absolute;width:100%;height:100%;left:0;top:0}*/
+div.quizPutTag .MathJye table{display:none;}
+.pt6 span, .ac td span.fleft { white-space: pre; }
+/*解析页面*/
+.ques-detail { width: 100%; background: #fcfcfc; }
+.ques-detail a, .ques-detail a:visited { text-decoration: none; color: #555; }
+.ques-detail a:hover { text-decoration: underline; }
+/*资源试题样式*/
+.editorFillBank {
+    width:100px;
+    border-bottom:1px solid black;
+    display:inline-block;
+}
+.editorBrace {
+    /*background-image:url(/mfgeditor/images/editorbrace.png);*/
+    border-bottom:1px solid black;
+    width:40px;
+    height:20px;
+    background-repeat:no-repeat;
+    vertical-align:middle;
+    display:inline-block;
+}

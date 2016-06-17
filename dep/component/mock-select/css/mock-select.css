@@ -1,0 +1,60 @@
+.mock-select{
+    line-height: 42px;
+    height: 42px;
+    text-align: center;
+    border:none;
+}
+.mock-select .name-wrap.active{
+    background: #fff;
+}
+.mock-ul{
+    position: absolute;
+    background: #fff;
+    z-index: 100;
+    border-bottom: 1px solid #d9d9d9;
+    width: 93.6%;
+    overflow-y: scroll;
+}
+.mock-select .name-wrap{
+    color: #fff;
+    height: 42px;
+    overflow: hidden;
+}
+.mock-select .bg{
+    display: inline-block;
+    height: 6px;
+    width: 13px;
+}
+.mock-select .name-wrap .bg{
+    background: url("../img/arrow-bottom.png") center center no-repeat;
+    background-size: 13px 6px;
+}
+.mock-select .name-wrap.active{
+    color: #00d535;
+}
+.mock-select .name-wrap.active .bg {
+    background: url("../img/arrow-top.png") center center no-repeat;
+    background-size: 13px 6px;
+}
+.mock-ul li{
+    margin:0;
+    color: #333333;
+    text-align: left;
+    height: 42px;
+    line-height: 42px;
+    border-top: 1px solid #d9d9d9;
+}
+.mock-ul li .right{
+    display: none;
+    float: right;
+    margin-right: 1rem;
+    padding: 16px 0;
+    height: 9px;
+    width: 14px;
+}
+.mock-ul li.active .right{
+    display: inline;
+}
+.mock-ul li.active{
+    color: #00d535;
+}

@@ -1,0 +1,37 @@
+{
+  "name": "mfg-wechat",
+  "version": "1.0.0",
+  "description": "mfg-wechat",
+  "main": "gulpFile.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "null"
+  ],
+  "author": "humorHan",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader":"*",
+    "style-loader":"*",
+    "webpack-stream":"*",
+    "gulp": "^3.8.11",
+    "gulp-less":"*",
+    "gulp-plumber":"*",
+    "vinyl-named":"*",
+    "webpack":"1.12.2",
+    "gulp-sourcemaps":"*",
+    "tmodjs-loader":"*",
+    "url-loader":"*",
+    "stylus-loader":"*",
+    "less-loader":"*",
+    "script-loader":"*",
+    "gulp-minify-css": "*",
+    "gulp-minify-html": "*",
+    "gulp-uglify": "*",
+    "del": "*",
+    "vinyl-paths": "*",
+    "gulp-rev": "*",
+    "gulp-rev-collector": "*"
+  }
+}

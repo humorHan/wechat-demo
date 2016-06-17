@@ -1,0 +1,5 @@
+webpack基于nodejs(推荐4.x)
+
+gulp bundle     测试包命令
+gulp pack       正式包(不压缩和不提取公共模块 不版本化)
+gulp package    正式包(不压缩和不提取公共模块)

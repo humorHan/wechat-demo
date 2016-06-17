@@ -1,0 +1,11 @@
+.no-data-bg{
+    margin: 47% auto 5%;
+    height: 57px;
+    width: 58px;
+    background: url('../img/no-data.png') center center no-repeat;
+    background-size: 58px 57px;
+}
+.no-data-tip{
+    text-align: center;
+    color: #999999;
+}

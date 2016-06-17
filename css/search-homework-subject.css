@@ -1,0 +1,68 @@
+.header{
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+    overflow: hidden;
+}
+.content-wrapper{
+    margin-bottom: 100px;
+}
+.course-name{
+    width: 35.33%;
+    border-right: 1px solid #00b52d;
+    box-shadow: 1px 0 #00f23c;
+}
+.homework-name{
+    width: 63%;
+}
+.handler{
+    position: fixed;
+    background: #fff;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    bottom: 0;
+    left: 0;
+    right:0;
+    text-align: center;
+    height: 25px;
+    line-height: 25px;
+    border-top: 1px solid #bebebe;
+}
+.some-subjects .right img{
+    height: 14px;
+    width: 14px;
+    vertical-align: middle;
+}
+.homework-comment .search{
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+}
+.border-right{
+    border-right: 1px solid #e4e4e4;
+}
+.last img,.middle img,.right-btn img{
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+}
+.w49{
+    width: 49%;
+}
+.w50{
+    width: 50%;
+}
+
+.no{
+    position: absolute;
+    left: 0;
+    top: 42px;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+}
+@media screen and(max-width:414px){
+     table td img{max-width:100%}
+     img{max-width:100%}
+}
