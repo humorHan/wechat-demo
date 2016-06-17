@@ -1,0 +1,37 @@
+header {width:100%;height:42px;background: #00d535}
+.class-learn{
+    width:35.4%;
+    height:42px;
+    background:#00d535;
+    text-align: center;
+    line-height:42px;
+    font-size:1.6rem;
+    border-right:1px solid #00ca32;
+}
+.class-date{
+    width:64.2%;
+    height:42px;
+    background:#00d535;
+    text-align: center;
+    line-height:42px;
+    font-size:1.6rem;
+}
+.teachplan-name{white-space: nowrap;text-overflow:ellipsis;overflow:hidden}
+.title{height:19px;padding-top:15px;padding-bottom: 10px;font-weight: 800;}
+.title p{line-height: 19px}
+.icon{width:3px;height:19px;margin-right:3px;background:#00d535;display:inline-block }
+.teach-plan{width:100%}
+.teach-plan li{padding:0 3.1%;  width:93.8%;background:#fff;margin-bottom: 10px}
+.teachplan-info{height: 68px}
+.teachplan-starttime{font-size:1.2rem;color:#ccc;}
+.konwpoint-title{margin-top:15px;margin-bottom: 10px}
+.testway-title{margin:10px 0;}
+.cri-contain{width:100%;text-overflow:ellipsis;}
+.point-title,.testway-title {font-weight:800;}
+.jingpin,.suitang{width:100%;overflow: hidden}
+.jingpin p:nth-of-type(1){border-radius:10px;background:#ff7200;width:60px;color: #fff;margin-left:0;padding:2px 5px;margin-bottom: 5px}
+.suitang p:nth-of-type(1){border-radius:10px;background:#00d535;width:60px;color: #fff;margin-left:0;padding:2px 5px;margin:5px 0;}
+@media screen and(max-width:414px){
+    .konwpoint table td img{max-width:100%}
+    .konwpoint img{max-width:100%}
+}

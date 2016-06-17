@@ -1,0 +1,65 @@
+.main{
+    width: 80%;
+    min-width: 280px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 8% 10%;
+    font-family: 微软雅黑;
+    font-size: 1.4rem;
+}
+.main table{width: 100%}
+.main td{text-align: left}
+.main tr{
+    line-height: 3rem;
+    /*height: px;*/
+}
+.info{
+    min-height: 145px;
+}
+.split{
+    margin-top: 25px;
+    width: 100%;
+    height: 1px;
+    border:0;
+    border-top:solid 1px #bebebe;
+}
+
+
+.login-header{
+    padding: 20px 0;
+    border: solid 1px;
+    border-bottom:dashed 1px;
+    border-radius: 10px;
+    border-color: #ffc371;
+    background: #fff;
+}
+.login-header h2
+{
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+.boy{
+width: 35%;
+}
+.foot{
+    margin-top:13%;
+  height:41%;
+}
+.foot p{
+    line-height: 3rem;
+    font-size: 1.4rem;
+    font-family: 微软雅黑;
+    font-weight: 400;
+}
+
+@media screen  and (max-width:325px){
+    .main{
+        padding: 8% 20px;
+    }
+    .boy{
+        width: 100px;
+    }
+}
+

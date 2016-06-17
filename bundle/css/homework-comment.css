@@ -1,0 +1,55 @@
+.header{
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+    overflow: hidden;
+}
+.course-name{
+    width: 35.33%;
+    border-right: 1px solid #00b52d;
+    box-shadow: 1px 0 #00f23c;
+}
+.homework-name{
+    width: 63%;
+}
+.title-wrapper span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.title-wrapper{
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+.bg{
+    height: 15px;
+    width: 3px;
+    margin-right: 5px;
+}
+.handler{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    border-top: 1px solid #bebebe;
+}
+.handler .search{
+    vertical-align: middle;
+    height: 14px;
+    width: 14px;
+}
+.grey{
+    color: #999999;
+}
+.comment-content{
+    border-bottom: 1px solid #bebebe;
+    margin-bottom: 100px;
+    padding-bottom: 9rem;
+}
+.comment-content .content{
+    line-height: 1.8rem;
+    padding-bottom: 10px;
+}

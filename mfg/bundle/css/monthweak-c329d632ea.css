@@ -1,0 +1,53 @@
+header{
+    width:100%;
+    height:42px;
+}
+.subject{
+    width:50%;
+    height:100%;
+    background: #00d535;
+}
+.date1{
+    width:50%;
+    height:100%;
+    background: #00d535;
+}
+.user{
+    width:93.3%;
+    font-size:1.4rem;
+}
+.user-name{color:#00d535}
+.user-subject{color:#00d535}
+.user li{
+    height:31px;
+    padding:8px 15px;
+    background: #fff;
+    margin-top:5px;
+    line-height:25px;
+    margin-bottom: 5px;
+    border-radius:5px;
+}
+.user li p{
+    font-size:12px;
+}
+.progress{
+    border-radius:5px;
+    height:5px ;
+    background:#ebebeb;
+}
+.progress p{
+    height: 5px;
+    width:40%;
+    border-radius:5px;
+    float:left;
+}
+.user li:nth-child(2) .progress p{background:#ff5050; }
+.user li:nth-child(3) .progress p{background:#ff7827; }
+.user li:nth-child(4) .progress p{background:#ffb21d; }
+.user li:nth-child(5) .progress p{background:#ffe066; }
+.user li:nth-child(6) .progress p{background:#ffcb00; }
+.user li:nth-child(7) .progress p{background:#ffac28; }
+.user li:nth-child(8) .progress p{background:#91e014; }
+.user li:nth-child(9) .progress p{background:#91e014; }
+.user li:nth-child(10) .progress p{background:#91e014; }
+.user li:nth-child(11) .progress p{background:#91e014; }

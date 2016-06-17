@@ -1,0 +1,92 @@
+.main{
+    width: 80%;
+    min-width: 280px;
+    margin: 32px auto 0 auto;
+    text-align: center;
+    padding: 0px 10%;
+}
+.bglogin{
+    background: url("../img/bglogin-8ff7715e08.jpg");
+    /*filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";*/
+    /*-moz-background-size:100% 100%;*/
+    /*background-size:100% 100%;*/
+
+}
+
+.login-header{
+    padding: 20px 0;
+    border: solid 1px;
+    border-bottom:dashed 1px;
+    border-radius: 10px;
+    border-color: #ffc371;
+    background: #fff;
+    text-align: left;
+    padding-left: 6.25%;
+    font-family: 微软雅黑;
+}
+.login-header span{
+    color: #ff6000;
+}
+
+.login-info{
+    border: solid 1px;
+    border-top-width:0;
+    border-radius: 10px;
+    border-color: #ffc371;
+    background: #fff;
+    padding: 10px 0px 30px 0px;
+}
+.login-info table{
+  width: 100%;
+}
+
+.login-info  td{
+    /*width: 100%;*/
+    text-align: left;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-color: #acbac2;
+    margin: 7px 0;
+    font-family: 微软雅黑;
+}
+.login-info .ltd{
+    padding-left: 10px;
+    width: 25%;
+}
+.login-info  .title{
+    font-weight: bold;
+    color: #40484c;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+@media screen  and (max-width:325px){
+    .main{
+        padding: 0 20px;
+    }
+}
+@media screen  and (width:375px){
+
+    .login-info{
+        padding: 10px 0;
+        height: 450px;
+        border: solid 1px;
+        border-top-width:0;
+        border-radius: 10px;
+        border-color: #ffc371;
+        background: #fff;
+    }
+}
+@media screen  and (min-width:414px){
+
+    .login-info{
+        padding: 10px 0;
+        height: 500px;
+        border: solid 1px;
+        border-top-width:0;
+        border-radius: 10px;
+        border-color: #ffc371;
+        background: #fff;
+    }
+}

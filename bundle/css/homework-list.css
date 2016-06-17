@@ -1,0 +1,43 @@
+.header{
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+    overflow: hidden;
+}
+.course{
+    width: 35.33%;
+    border-right: 1px solid #00b52d;
+}
+.type{
+    width: 64.3%;
+}
+.homework-lists li{
+    height: 66px;
+    color: #333333;
+    background: #fff;
+    margin-top: 0.8rem;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+.end-time{
+    color: #999999;
+}
+.title-and-type{
+    margin: 12px 0;
+    width: 72.8%;
+}
+.title-and-type .homework-name{
+    margin-bottom: 9px;
+}
+.end-time{
+    width: 26.9%;
+    line-height: 66px;
+}
+.end-time span{
+    vertical-align: text-bottom;
+    display: inline-block;
+    margin-left: 5px;
+    width: 9px;
+    height: 14px;
+    background: url('../img/arrow-right.png') center center no-repeat;
+}

@@ -1,0 +1,7 @@
+.box{width:100%;margin-top:1rem}
+.study{margin-bottom:1rem}
+.study h3{overflow:hidden;zoom:1;padding-top:1rem;padding-bottom:1rem;height:2.2rem;line-height:2.2rem;}
+.study-logo{float:right;display:inline-block;width:2.2%;vertical-align:middle;width:auto;margin-top:0.65rem;margin-right:1rem}
+.study-show{display:none;height:auto;line-height:1.4rem;padding-top:1rem;}
+.study-show p{line-height:2rem;text-indent:2rem }
+.study img{width:14px;height:9px;}

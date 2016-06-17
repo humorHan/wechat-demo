@@ -1,0 +1,98 @@
+.header{
+    height: 42px;
+    line-height: 42px;
+    width: 100%;
+    overflow: hidden;
+}
+.course{
+    width: 35.33%;
+    border-right: 1px solid #00b52d;
+}
+.type{
+    width: 37.6%;
+}
+.homework-lists li{
+    background: #fff;
+    margin-top: 0.8rem;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+.end-time{
+    color: #999999;
+}
+
+.main{
+    width: 80%;
+    min-width: 280px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px 10%;
+    font-family: 微软雅黑;
+    font-size: 1.4rem;
+}
+.main table{width:  100%}
+.main td{text-align: left}
+
+.tdvalue{font-size: 1.4rem;color: #bebebe}
+
+.main tr{
+    line-height: 3rem;
+    height: 50px;
+    border-bottom:solid 1px #c6c6c6;
+}
+
+.foot{
+    margin-top:18%;
+    height:41%;
+}
+.foot .plan{
+    line-height: 3rem;
+    font-size: 1.4rem;
+    font-family: 微软雅黑;
+
+}
+.foot .hint{
+    font-size: 1.2rem;
+    font-family: 微软雅黑;
+    color: #c6c6c6;
+}
+.totalinfo{
+    width: 100%;
+    margin-top: 18%;
+    height: 110px;
+}
+.teach{
+    width: 39%;
+    height: 100%;
+    border: solid 0;
+    overflow: hidden;
+    border-radius: 5px;
+    /*height: 19%;*/
+}
+
+.teach .desc{
+    height: 74.8px;
+    line-height: 74.8px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.teach .num{
+    height: 35.2px;
+    line-height: 35.2px;
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+.righth{
+    width: 64%;
+
+}
+.righth p{text-align: center;}
+
+@media screen  and (max-width:325px){
+    .main{
+        padding: 0px 8px;
+        width: 95%;
+    }
+
+}
+

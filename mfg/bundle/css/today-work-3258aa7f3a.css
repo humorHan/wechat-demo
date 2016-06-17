@@ -1,0 +1,104 @@
+header{width:100%;background:#00d535;color:#fff;overflow: hidden}
+.work{
+    width:35.4%;
+    height:42px;
+    background:#00d535;
+    text-align: center;
+    line-height:42px;
+    font-size:1.6rem;
+    border-right:1px solid #00ca32;
+}
+.time{
+    width:64.2%;
+    height:42px;
+    background:#00d535;
+    text-align: center;
+    line-height:42px;
+    font-size:1.4rem;
+}
+.title{
+    width:100%;
+    height:68px;
+    background:#fff;
+    margin-bottom: 10px;
+}
+.title-name{
+    padding:15px 10px;
+    font-size:1.4rem;
+    font-weight:800;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.title-time{
+    padding:0px 10px;
+    font-size:1.2rem;
+    color:#ccc;
+}
+.main{font-weight: 800;background:#fff;}
+.work-analyze{
+    padding:0 3.1%;
+    width:93.8%;
+    height:222px;
+}
+.work-analyze-title{
+    padding-top:20px;
+    overflow:hidden;
+    height:19px;
+}
+.work-analyze-title p{line-height: 19px}
+.work-total span{color:#00d535}
+.tixing{text-align: center;margin-top:44px}
+.icon{
+    width:3px;height:19px;margin-right:3px;background:#00d535;display:inline-block
+}
+#pie{
+    width:70%;
+    height:130px;
+}
+.legeng{
+    width:30%;
+    height:130px;
+}
+.legeng ul{margin-top:25px}
+.legeng li{  list-style:inside;margin-bottom:15px;}
+.legeng li:nth-child(1){  list-style-image: url(../img/legend-2-cfea437b60.jpg);}
+.legeng li:nth-child(2){  list-style-image: url(../img/legend-3-cb861ade0c.jpg);}
+.legeng li:nth-child(3){  list-style-image: url(../img/legend-1-b70ae0f7d8.png);}
+.work-statistics{
+    padding:1px 3.1%;
+    width:93.8%;
+    height:232px;
+    margin-bottom:20px;
+}
+.tongji{text-align: center;margin-top:22px}
+#colum{
+    width:100%;
+    height:160px;
+}
+.geloc{
+    width:100%;
+    height:14px;
+    font-size: 1.2rem;
+    font-weight:400;
+}
+.ge-one{
+    margin-left:16.5%;
+}
+.ge-left{margin-left:4%;}
+footer{
+    width:100%;
+    height:42px;
+    background: #fff;
+    text-align: center;
+    line-height: 42px;
+}
+footer img{
+    width:1.4rem;
+    position: relative;
+    top:3px;
+}
+a{color:#00d535}
+a:link{color:#00d535}
+a:active{color:#00d535;}
+a:visited{color:#00d535;text-decoration: none}
